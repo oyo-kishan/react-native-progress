@@ -41,6 +41,9 @@ const Progress = ({ percentage, width, height ,strokeWidth ,strokeColor,strokeBa
                 })
             }
         })
+        return ()=>{
+            animated.removeAllListeners();
+        }
     }, []);
 
 

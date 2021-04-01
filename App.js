@@ -14,7 +14,6 @@ export default function App() {
             strokeWidth={20}
             strokeColor="#27425c"
             strokeBackgroundColor="#b3cee8"
-            
           />
     </SafeAreaView>
   );
